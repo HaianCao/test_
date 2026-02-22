@@ -22,7 +22,7 @@ Truy cập và tham gia cuộc thi trên hệ thống Kaggle tại đường lin
     - [1. Đặc điểm bài toán](#1-đặc-điểm-bài-toán)
     - [2. Cấu trúc dữ liệu](#2-cấu-trúc-dữ-liệu)
     - [3. Kết quả dự đoán](#3-kết-quả-dự-đoán)
-    - [4. Chỉ số đánh giá](#3-chỉ-số-đánh-giá)
+    - [4. Chỉ số đánh giá](#4-chỉ-số-đánh-giá)
 - [Starter Kit](#starter-kit)
 - [Các mốc thời gian quan trọng](#các-mốc-thời-gian-quan-trọng)
 - [Quy định cuộc thi](#quy-định-cuộc-thi)
@@ -76,11 +76,12 @@ Bài toán yêu cầu dự đoán một vector đầu ra gồm 6 chiều (tươn
 **Một dự đoán chỉ được tính là Chính xác khi và chỉ khi mô hình dự đoán đúng đồng thời cả 6 giá trị của vector đầu ra**. Nếu mô hình dự đoán sai dù chỉ một trong 6 chiều, toàn bộ kết quả dự đoán của dòng dữ liệu đó sẽ bị đánh giá là Không chính xác.
 
 **Công thức chỉ số Exact-Match Accuracy**
+
 $$\text{Accuracy} = \frac{N_{acc}}{N}$$
 
 **Trong đó:**
-- **N_acc**: Số lượng mẫu dự đoán đúng hoàn toàn (khớp đồng thời cả 6 thuộc tính).
-- **N**: Tổng số lượng mẫu trên tập Test.
+- $N_{acc}$: Số lượng mẫu dự đoán đúng hoàn toàn (khớp đồng thời cả 6 thuộc tính).
+- $N$: Tổng số lượng mẫu trên tập Test.
 
 ---
 
