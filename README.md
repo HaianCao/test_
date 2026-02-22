@@ -10,6 +10,13 @@ Thí sinh, với vai trò một Data Scientist, cần giải quyết bài toán 
 
 ---
 
+# Quick Start
+
+Truy cập và tham gia cuộc thi trên hệ thống Kaggle tại đường link sau: 
+[DỰ ĐOÁN HÀNH VI NGƯỜI DÙNG (USER BEHAVIOR PREDICTION) trên Kaggle](https://www.kaggle.com/t/bb073834e2f240be99c0b7e4672d96da)
+
+---
+
 # Nội dung
 - [Mô tả bài toán](#mô-tả-bài-toán)
     - [1. Đặc điểm bài toán](#1-đặc-điểm-bài-toán)
@@ -18,10 +25,10 @@ Thí sinh, với vai trò một Data Scientist, cần giải quyết bài toán 
     - [4. Chỉ số đánh giá](#3-chỉ-số-đánh-giá)
 - [Starter Kit](#starter-kit)
 - [Các mốc thời gian quan trọng](#các-mốc-thời-gian-quan-trọng)
-- [Cách thức tham gia](#cách-thức-tham-gia)
 - [Quy định cuộc thi](#quy-định-cuộc-thi)
 - [Tài nguyên](#tài-nguyên)
-- [Ban tổ chức](#ban-tổ-chức)
+
+---
 
 # Mô tả bài toán
 
@@ -75,6 +82,8 @@ $$\text{Accuracy} = \frac{N_{acc}}{N}$$
 - **N_acc**: Số lượng mẫu dự đoán đúng hoàn toàn (khớp đồng thời cả 6 thuộc tính).
 - **N**: Tổng số lượng mẫu trên tập Test.
 
+---
+
 # Starter Kit
 
 Chúng tôi cung cấp **starter kit** cho bài toán để giúp người tham gia bắt đầu dễ dàng hơn:
@@ -85,11 +94,68 @@ Và các công cụ hỗ trợ:
 - **File nộp mẫu**: [`sample_submission_file/`](./sample_submission_file/)
 - **Dữ liệu cuộc thi**: [`dataset/`](./dataset/) *(Lưu ý: Thư mục này được thiết lập bỏ qua trong `.gitignore`. Thí sinh cần tự tải dữ liệu từ nền tảng cuộc thi trên Kaggle và đặt vào thư mục này)*
 
+---
+
 # Các mốc thời gian quan trọng
 
-# Cách thức tham gia
+| Mô tả                         | Thời gian               |
+|-------------------------------|------------------------|
+| ~~Mở đơn đăng ký tham gia~~    | ~~01/01/2026 - 15/01/2026~~   |
+| ~~Vòng loại~~    |  ~~21/01/2026 - 12/02/2026~~           |
+| Vòng bán kết      | 23/02/2026 - 10/03/2026                 |
+| Vòng chung kết        | 11/03/2026 - 21/03/2026                 |
+
+---
 
 # Quy định cuộc thi
+
+### PHẦN 1: QUY ĐỊNH VỀ ĐẠO ĐỨC VÀ ỨNG XỬ
+1. **Văn hóa tôn trọng:**
+- Thí sinh phải giữ thái độ tôn trọng, đúng mực, hợp tác với Ban Tổ Chức (BTC), Ban Giám Khảo (BGK), Mentor và các đội thi khác.
+- Nghiêm cấm mọi hành vi quấy rối, công kích cá nhân, phân biệt vùng miền/giới tính, hoặc đe dọa vũ lực (dù là trực tiếp hay trên không gian mạng).
+2. **Phát ngôn trên mạng xã hội:**
+- Mọi thắc mắc, khiếu nại cần được gửi qua kênh email chính thức hoặc hotline của BTC. Nghiêm cấm việc đăng tải thông tin sai lệch, chưa kiểm chứng hoặc sử dụng ngôn từ kích động nhằm hạ thấp uy tín cuộc thi trên mạng xã hội.
+3. **Tính trung lập:**
+- Nghiêm cấm các hành vi tặng quà, hối lộ hoặc lợi dụng mối quan hệ cá nhân với thành viên BTC/BGK dẫn đến xung đột lợi ích, ảnh hưởng đến kết quả trung thực của cuộc thi.
+
+### PHẦN 2: QUY ĐỊNH VỀ LIÊM CHÍNH HỌC THUẬT & CHUYÊN MÔN
+4. **Bản quyền và Ý tưởng:**
+- Sản phẩm dự thi phải thuộc quyền sở hữu của đội thi. Nghiêm cấm mọi hành vi sao chép, đạo nhái ý tưởng từ các đội khác hoặc các nguồn có sẵn mà không trích dẫn hợp lệ.
+- Nếu phát hiện gian lận/ăn cắp ý tưởng (kể cả sau khi trao giải), BTC có quyền thu hồi giải thưởng và công bố công khai hành vi vi phạm.
+- Sản phẩm thuộc quyền sở hữu trí tuệ của đội thi. Tuy nhiên, BTC có quyền sử dụng hình ảnh, mô tả sản phẩm cho mục đích truyền thông phi thương mại và lưu trữ hồ sơ cuộc thi.
+5. **Giới hạn sự hỗ trợ của Mentor:**
+- Mentor chỉ đóng vai trò định hướng, gợi ý phương pháp tư duy.
+- Nghiêm cấm nhờ Mentor trực tiếp viết code, thiết kế slide, hoặc tham gia vào quá trình xây dựng sản phẩm dự thi. Nếu phát hiện, cả đội thi sẽ bị hủy bỏ kết quả và tư cách dự thi.
+6. **Sử dụng danh nghĩa BTC:** 
+- Thí sinh không được phép mạo danh BTC để tạo fanpage, group, lừa đảo thông tin, tài chính của các thí sinh khác.
+
+### PHẦN 3: QUY ĐỊNH VỀ CƠ CẤU ĐỘI THI & HỒ SƠ
+7. **Tính ổn định nhân sự:**
+- Danh sách thành viên chốt tại vòng loại là danh sách cuối cùng. Không chấp nhận việc ghép đội, thay thế thành viên hoặc nhờ người thi hộ dưới mọi hình thức.
+- Trong trường hợp bất khả kháng (thành viên bỏ thi), đội thi vẫn phải tiếp tục với số lượng thành viên còn lại (miễn là đáp ứng mức tối thiểu: 02 thành viên).
+8. **Trung thực về thông tin cá nhân:**
+- Thí sinh chịu trách nhiệm hoàn toàn về tính chính xác của thông tin cá nhân (Thẻ sinh viên, CCCD). Nếu phát hiện khai gian, đội sẽ bị hủy bỏ kết quả thi và bị loại ngay lập tức.
+
+### PHẦN 4: QUY ĐỊNH VỀ VẬN HÀNH & HẬU CẦN
+9. **Trách nhiệm cập nhật thông tin:**
+- BTC sẽ gửi thông báo qua Email đăng ký và Group Zalo chính thức. Thí sinh có trách nhiệm kiểm tra hộp thư (bao gồm cả Spam) hàng ngày. BTC không chịu trách nhiệm nếu thí sinh bỏ lỡ thông tin.
+10. **Quy định nộp bài:**
+- Hệ thống đóng nộp bài đúng giờ quy định. Mọi lý do cá nhân (mất mạng, lỗi máy tính,...) hoặc nộp muộn đều không được chấp nhận (trừ lỗi server từ phía BTC).
+- BTC không chấp nhận chỉnh sửa/thay thế file nộp bài sau khi hết hạn. Trong trường hợp hệ thống gặp sự cố, thí sinh phải gửi bài qua Email BTC trước giờ deadline để làm bằng chứng.
+- Đội thi phải nộp đầy đủ các tài liệu liên quan phục vụ cho việc báo cáo. Nếu không nộp đủ, đội thi sẽ không được tham gia báo cáo và bị loại trực tiếp.
+11. **Bảo quản tài sản & Hình ảnh:**
+- Tại các buổi Offline, thí sinh làm hư hỏng thiết bị của BTC do cố ý hoặc bất cẩn sẽ phải bồi thường theo giá trị thị trường tại thời điểm xảy ra sự cố hoặc theo báo giá sửa chữa từ đơn vị cung cấp dịch vụ.
+- Thí sinh cam kết cung cấp thông tin cá nhân để BTC, Nhà tài trợ & Nhà bảo trợ chính thức của cuộc thi phục vụ công tác tổ chức, trao giải trong và sau cuộc thi.
+- BTC có quyền sử dụng hình ảnh thí sinh trong quá trình diễn ra cuộc thi cho mục đích truyền thông phi thương mại.
+- Yêu cầu trang phục lịch sự, phù hợp thuần phong mỹ tục tại các buổi trình bày/Offline.
+
+### PHẦN 5: QUY ĐỊNH VỀ KHIẾU NẠI VÀ GIẢI QUYẾT TRANH CHẤP
+- Mọi khiếu nại về kết quả hoặc vi phạm quy chế phải được gửi trực tiếp từ email của Đội trưởng đến email chính thức của BTC trong vòng 24 giờ kể từ khi sự việc phát sinh hoặc kết quả được công bố. BTC từ chối giải quyết các khiếu nại quá hạn, nặc danh, gửi sai kênh hoặc đăng tải công khai trên mạng xã hội khi chưa có kết luận chính thức.
+- Người khiếu nại có nghĩa vụ cung cấp bằng chứng xác thực (hình ảnh, video, log file,...) chứng minh cho nội dung khiếu nại. BTC chỉ xem xét các sai sót về kỹ thuật, quy trình hoặc hành vi gian lận; không giải quyết khiếu nại liên quan đến đánh giá chuyên môn và ý kiến đánh giá chủ quan từ phía thí sinh.
+- Hội đồng sẽ phản hồi khiếu nại trong 48 giờ và quyết định của BTC là cuối cùng. Các hành vi khiếu nại sai sự thật hoặc bôi nhọ cuộc thi sẽ bị tước danh hiệu và tư cách tham gia cuộc thi.
+- Trong mọi trường hợp tranh chấp phát sinh chưa được quy định rõ trong quy định này, sẽ được BTC thảo luận và đưa ra phương án kịp thời.
+
+---
 
 # Tài nguyên
 
